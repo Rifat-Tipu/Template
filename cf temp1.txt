@@ -1,30 +1,91 @@
- 
-///           B I S M I L L A H I R  R A H M A N I R  R A H I M
+
+//     BISMILLAHIR  RAHMANIR  RAHIM
 
 
 #include<bits/stdc++.h>
 using namespace std;
+
+typedef unsigned long long ull;
+typedef double dl;
+typedef float ft;
+
 #define e "\n"
-#define ll int64_t
+#define ll long long int
 #define ld long double
 #define pi 3.1415926535897932384626433832795l
-#define speed() ios_base::sync_with_stdio(false);cin.tie(NULL);
-void abul()
+#define speed() ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+
+// Binary Exponentiation
+
+/*int bin(int a, int p)
 {
+    if(p==0) return 1;
 
-
+    int res=bin(a,p/2);
+    res*=res;
+    if(p%2)
+    {
+        res*=a;
+    }
+    return res;
 }
+
+//  Prime check
+
+bool Prime(int n)
+{
+    if (n<2) return false;
+    if (n<=3) return true;
+    if (!(n%2) || !(n%3)) return false;
+    for (int i=5; i*i<=n; i+=6)
+        if (!(n%i) || !(n%(i+2))) return false;
+    return true;
+}
+
+// Greatest common divisor — GCD
+
+ll gcd(ll a, ll b)
+{
+    if (b==0) return a;
+    else return gcd(b, a%b);
+}
+
+// Least common multiple — LCM
+
+ll lcm(ll a, ll b)
+{
+    return (a/gcd(a,b))*b;
+}
+
+// Find Ascii of any Integer Number
+
+char ascii(int a)
+{
+    if(a==0) return '.';
+    else return a-1+'A';
+}
+*/
+
+// ----------------------------------------
+
+
+void gorib()
+{
+    
+}
+
 
  int main()
 {
-speed();
-int t;
-t=1;
-//cin>>t;
-while(t--)
-    {
-   abul();
-   }
+  speed();
+  int t;
 
-   return 0;
+ //t=1;
+
+  cin>>t;
+    while(t--)
+   {
+	gorib();
+   }
+  return 0;
 }
